@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section id="menu">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+            <h2>Dynamic</h2>
+        </div>
+
+        <div class="items">
+            <li><i class="fa-solid fa-chart-pie"></i><a href="#">Dashboard</a></li>
+            <li><i class="fa-brands fa-uikit"></i><a href="#">UI Elements</a></li>
+            <li><i class="fa-solid fa-table-cells-large"></i><a href="#">Tabels</a></li>
+            <li><i class="fa-solid fa-pen-to-square"></i><a href="#">Forms</a></li>
+            <li><i class="fa-brands fa-cc-visa"></i><a href="#">Cards</a></li>
+            <li><i class="fa-solid fa-burger"></i><a href="#">Modal</a></li>
+            <li><i class="fa-solid fa-chart-line"></i><a href="#">Blank</a></li>
+        </div>
+    </section>
+
+    <section id="interface">
+        <div class="navigation">
+            <div class="n1">
+
+                <div>
+                    <i id="menu-btn" class="fas fa-bars"></i>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="search">
+                </div>
+            </div>
+
+            <div class="profile">
+                <i class="fa-solid fa-bell"></i>
+                <img src="img/facebook_1644497243958_6897521368322714116.jpg" alt="">
+            </div>
+        </div>
+
+        <h3 class="i-name">
+            Dashboard
+        </h3>
+
+        <div class="values">
+            <div class="value-box">
+                <i class="fas fa-users"></i>
+                <div>
+                    <h3>8,267</h3>
+                    <span>New Users</span>
+                </div>
+            </div>
+
+            <div class="value-box">
+                <i class="fas fa-shopping-cart"></i>
+                <div>
+                    <h3>200,521</h3>
+                    <span>Total Orders</span>
+                </div>
+            </div>
+
+            <div class="value-box">
+                <i class="fa-brands fa-sellsy"></i>
+                <div>
+                    <h3>215,542</h3>
+                    <span>Product sell</span>
+                </div>
+            </div>
+
+            <div class="value-box">
+                <i class="fas fa-dollar-sign"></i>
+                <div>
+                    <h3>$677.89</h3>
+                    <span>This Month</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Title</td>
+                        <td>Status</td>
+                        <td>Role</td>
+                        <td></td>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td class="people">
+                            <img src="img/facebook_1644497243958_6897521368322714116.jpg" alt="">
+                            <div class="people-desc">
+                                <h5>Naresh Vijayvargiya</h5>
+                                <p>naresh.vrg@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="people-desig">
+                            <h5>Software Engineer</h5>
+                            <p>Web Dev</p>
+                        </td>
+
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="people">
+                            <img src="img/facebook_1644497243958_6897521368322714116.jpg" alt="">
+                            <div class="people-desc">
+                                <h5>John Doe</h5>
+                                <p>john@example.com</p>
+                            </div>
+                        </td>
+
+                        <td class="people-desig">
+                            <h5>Software Engineer</h5>
+                            <p>Web Dev</p>
+                        </td>
+
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="people">
+                            <img src="img/facebook_1644497243958_6897521368322714116.jpg" alt="">
+                            <div class="people-desc">
+                                <h5>Oscar Rhys</h5>
+                                <p>oscar@example.com</p>
+                            </div>
+                        </td>
+
+                        <td class="people-desig">
+                            <h5>Software Engineer</h5>
+                            <p>Web Dev</p>
+                        </td>
+
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="people">
+                            <img src="img/facebook_1644497243958_6897521368322714116.jpg" alt="">
+                            <div class="people-desc">
+                                <h5>George Reece</h5>
+                                <p>george@example.com</p>
+                            </div>
+                        </td>
+
+                        <td class="people-desig">
+                            <h5>Software Engineer</h5>
+                            <p>Web Dev</p>
+                        </td>
+
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="people">
+                            <img src="img/facebook_1644497243958_6897521368322714116.jpg" alt="">
+                            <div class="people-desc">
+                                <h5>Thomas Joe</h5>
+                                <p>thomas@example.com</p>
+                            </div>
+                        </td>
+
+                        <td class="people-desig">
+                            <h5>Software Engineer</h5>
+                            <p>Web Dev</p>
+                        </td>
+
+                        <td class="active">
+                            <p>Active</p>
+                        </td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+<script src="app.js"></script>
+</body>
+
+</html>
